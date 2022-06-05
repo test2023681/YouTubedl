@@ -1,0 +1,40 @@
+{
+    "name": "YouTube DL Bot",
+    "description": "A bot that can download video or audio from YouTube from better quality and low size @MutyalaHarshith.",
+    "logo": "https://telegra.ph/file/236794ce4bb2213eaae1e.jpg",
+    "keywords": [
+        "YouTube DL",
+        "Video Downloader",
+        "Telegram Bot",
+        "Mutyala Harshith Bots"
+    ],
+    "website": "https://github.com/MutyalaHarshith",
+    "repository": "https://github.com/MutyalaHarshith/YouTubedl",
+    "success_url": "https://t.me/MutyalaHarshith",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": "MutyalabHarshith"
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": "abcdefgh"
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": "12345"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
